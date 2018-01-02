@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+ struct employee
+ {
+     char name[25];
+     int age;
+     int phoneno;
+     int empid;
+ };
+ int main()
+ {
+     employee e;
+ 
+   cout<<"enter emp name : ";
+   cin.get(e.name, 25);
+   cout<<"enter age : ";
+   cin>>e.age;
+   cout<<"enter phone no : ";
+   cin>>e.phoneno;
+   cout<<"enter emp id";
+   cin>>e.empid;
+   
+   cout << "name: " << e.name << endl;
+    cout <<"age: " << e.age << endl;
+    cout << "phoneno: " << e.phoneno << endl;
+   cout <<"empid : "<<e.empid;
+   return 0;
+ }
+  
