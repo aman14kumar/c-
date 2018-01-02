@@ -6,7 +6,7 @@ using namespace std;
  {
      char name[25];
      int age;
-     int phoneno;
+     long int phoneno;
      int empid;
  };
  int main()
