@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+class shape
+{
+ public:
+   int x;
+   void display()
+   {
+     cout<<"inherited";
+   }
+};
+class circle:public shape
+{
+  public:
+    int y;
+};
+int main()
+{
+ 
+  circle cr;
+  cr.display();
+  return 0;
+}
