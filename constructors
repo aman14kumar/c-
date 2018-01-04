@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class book
+struct book
 {
     public:
         int a;
