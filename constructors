@@ -1,0 +1,24 @@
+ 
+
+#include <iostream>
+
+using namespace std;
+
+class book
+{
+    public:
+        int a;
+        book(void);
+};
+book::book()
+{
+    a=56;
+}
+int main() {
+   
+   book book;
+   cout<<book.a;
+}
+
+
+ 
