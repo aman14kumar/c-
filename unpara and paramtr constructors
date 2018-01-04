@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+
+ class marks
+ {
+     public:
+     int a;
+     int b;
+     
+ 
+ marks(void)
+ {
+     a=87;
+ }
+ marks(int x)
+ {
+     b=x;
+ }
+  
+     
+ 
+ };
+     
+ 
+ 
+ int main()
+ {
+     marks mark;
+     cout<<"marks in math :";
+     cout<<mark.a<<endl;
+    marks mark1(85);
+    
+    cout<<"marks in science :";
+     cout<<mark1.b;
+    
+ }
+ 
+ 
+ 
